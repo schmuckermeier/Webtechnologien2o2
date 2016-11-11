@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sophie's Homepage</title>
+    </head>
+    <body>
+        <header>
+            <h1>Max's Homepage</h1>
+            <nav>
+                <a href="WelcomePage.html#top">Willkommen</a> |
+                <a href="Blog.html">Blog</a> |
+                <a href="ContactPage.html">Kontakt</a> |
+                <a href="About.html">Über den Autor</a>
+            </nav>
+        </header>
+        
+        <main>
+            <p>Hier kommt der Inhalt.</p>
+            
+            <figure>
+                
+                <form>
+                    <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="name" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Anrede</td>
+                        <td><select name="anrede">
+                              <option value="">Ohne</option>
+                              <option value="dr">Dr.</option>
+                              <option value="prof">Prof.</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Geschlecht</td>
+                        <td> <input type="radio" name="geschlecht" value="männlich" required> Männlich<br>
+                             <input type="radio" name="geschlecht" value="weiblich" required> Weiblich<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>E-Mail Addresse</td>
+                        <td><input type="mail" name="mail" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Webseite</td>
+                        <td><input type="text" name="webseite"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Telephonnummer</td>
+                        <td><input type="tel" name="telephon" pattern="[0-9]+"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Betreff</td>
+                        <td><input type="text" name="betreff" required/>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Nachricht</td>
+                        <td><textarea name="message" rows="10" cols="30" required></textarea>
+                        </td>
+                    <tr>
+                        <td>Datum</td>
+                        <td><input type="date" name="datum"/>
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td>Uhrzeit</td>
+                        <td><input type="time" name="uhrzeit"/>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Thema</td>
+                        <td><input type="checkbox" name="Webside">Webside</input>
+                            <input type="checkbox" name="Newsletter">Newsletter</input>
+                            <input type="checkbox" name="Sonsige">Sonstige</input>
+                        </td>
+                    </tr>  
+                    
+                    <tr>
+                        <td>Datei anhängen</td>
+                        <td><input type="file" name="datei"/>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Deine Lieblingsfarbe </td>
+                        <td><input type="color" name="farbe"/>
+                        </td>
+                    </tr>
+                    
+                    </tr>
+                        <td><input type="submit" value="Senden"/>
+                            <input type="reset" value="Löschen">
+                        </td>
+
+                    </table>
+                </form>
+                
+                
+            </figure>
+            
+        </main>
+        
+        <footer>
+            <nav>
+                <a href="PrivacyRegulations.html">Datenschutzerklärung</a> | 
+                <a href="Impressum.html">Impressum</a>
+            </nav>
+        </footer>
+    </body>
+</html>
